@@ -8,6 +8,11 @@
   src: url(./assets/fonts/SegoeWP.ttf) format("truetype");
 }
 
+@font-face {
+  font-family: "Asap Regular";
+  src: url(./assets/fonts/Asap-Regular.otf) format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +28,7 @@ header {
   display: flex;
 
   width: 100%;
-  height: 180px;
+  height: 160px;
 
   background: url(./assets/images/background1.png) no-repeat;
 }
@@ -67,7 +72,7 @@ header nav {
 
   margin: -36px 0 0 258px;
 
-  font-family: SegoeWP;
+  font-family: "SegoeWP";
   font-size: 17px;
   color: #9B7D08;
   letter-spacing: 0;
@@ -109,4 +114,66 @@ header nav {
 
 .contact img {
   transform: translate(0px, 3px);
+}
+
+.player {
+  display: flex;
+
+  width: 100%;
+  height: 406px;
+
+  background: url(./assets/images/background1.png) no-repeat;
+  background-position-y: -160px;
+}
+
+.video_wrapper {
+  margin: 9px 0 0 118px;
+}
+
+.span_section {
+  width: 482px;
+  height: 406px;
+  padding-top: 79px;
+
+  font-size: 63px;
+  letter-spacing: 1px;
+  font-family: "Asap Regular";
+}
+
+.first_span_wrapper {
+  text-align: center;
+  color: #f5c506;
+}
+
+.second_span_wrapper {
+  margin-top: -2px;
+  padding-left: 15px;
+
+  text-align: center;
+  color: white;
+}
+
+.left_button {
+  width: 32px;
+  height: 57px;
+  margin-top: 141px;
+
+  background-color: #f5c506;
+  opacity: 0.71;
+}
+
+.right_button{
+  width: 32px;
+  height: 57px;
+  margin: 141px 0 0 90px;
+
+  background-color: #f5c506;
+  opacity: 0.71;
+}
+
+.left_button figure,
+.right_button figure {
+  padding-top: 18px;
+
+  text-align: center;
 }
