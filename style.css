@@ -13,6 +13,11 @@
   src: url(./assets/fonts/Asap-Regular.otf) format("truetype");
 }
 
+@font-face {
+  font-family: "SegoeUI-Light";
+  src: url(./assets/fonts/Segoe-UI-Light.ttf) format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -176,4 +181,50 @@ header nav {
   padding-top: 18px;
 
   text-align: center;
+}
+
+.icons {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 212px;
+  padding: 0 140px 0 139px;
+
+  font-family: "SegoeUI-Light";
+  font-size: 27px;
+  letter-spacing: 0px;
+  font-weight: 300;
+
+  background: url(./assets/images/background2.png) no-repeat;
+}
+
+.design {
+  padding: 64px 0 0 87px;
+
+  border-left: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.design figure img {
+  transform: translate(26px,-2px);
+}
+
+.custom {
+  padding: 44px 0 0 111px;
+
+  border-left: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.custom figure img {
+  transform: translate(24px,-6px);
+}
+
+.free {
+  padding: 56px 0 0 112px;
+
+  border-right: 1px solid rgba(0, 0, 0, 0.14);
+  border-left: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+.free figure img {
+  transform: translate(6px,-1px);
 }
