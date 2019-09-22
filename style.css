@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 
-body {
+.wrapper {
   width: 1300px;
 }
 
@@ -29,7 +29,7 @@ header {
 }
 
 header h1 {
-  margin: 51px 0 0 4px;
+  margin: 52px 0 0 4px;
 
   font-family: "Lucida Sans Italic";
   font-size: 41px;
@@ -38,7 +38,7 @@ header h1 {
 }
 
 .logo {
-  margin: 28px 0 0 140px;
+  margin: 29px 0 0 140px;
 }
 
 .navshadow1,
@@ -70,14 +70,16 @@ header nav {
   font-family: SegoeWP;
   font-size: 17px;
   color: #9B7D08;
+  letter-spacing: 0;
 }
 
 .about {
   flex: 1;
 
-  padding: 8px 0 0 37px;
+  padding-top: 8px;
 
   border-right: 1px solid #9B7D08;
+  text-align: center;
 }
 
 .about img {
@@ -87,13 +89,24 @@ header nav {
 .services {
   flex: 1;
 
-  padding: 8px 0 0 37px;
+  padding-top: 8px;
 
   border-right: 1px solid #9B7D08;
+  text-align: center;
+}
+
+.services img {
+  transform: translate(0px, 3px);
 }
 
 .contact {
   flex: 1;
 
-  padding: 8px 0 0 37px;
+  padding-top: 8px;
+
+  text-align: center;
+}
+
+.contact img {
+  transform: translate(0px, 3px);
 }
