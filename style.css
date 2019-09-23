@@ -158,7 +158,7 @@ header nav {
   height: 406px;
 
   background: url(./assets/images/background1.png) no-repeat;
-  background-position-y: -160px;
+  background-position-y: -160px; 
 }
 
 .video_wrapper {
@@ -217,7 +217,7 @@ header nav {
   display: grid;
 
   grid-template-columns: 1fr 1fr 1fr;
-  height: 212px;
+  height: 215px;
   padding: 0 140px 0 139px;
 
   font-family: "SegoeUI-Light";
@@ -226,6 +226,8 @@ header nav {
   font-weight: 300;
 
   background: url(./assets/images/background2.png) no-repeat;
+
+  box-shadow: -0.55px -2.098px 5px rgba(0, 0, 0, 0.35);
 }
 
 .design {
@@ -264,15 +266,17 @@ header nav {
 }
 
 .tweet {
-  height: 509px;
+  height: 506px;
 
   padding-left: 139px;
 
   background: url(./assets/images/background3.png) no-repeat;
+
+  box-shadow: -0.55px -2.098px 2px rgba(0, 0, 0, 0.35);
 }
 
 .div_head {
-  padding-top: 33px;
+  padding-top: 31px;
   font-family: "PT Sans Regular";
   font-size: 37px;
   letter-spacing: 0.4px;
@@ -377,7 +381,7 @@ header nav {
 
 .devices {
   width: 100%;
-  height: 499px;
+  height: 497px;
   padding-left: 139px;
 
   background: url('./assets/images/background4.png') no-repeat;
@@ -470,4 +474,31 @@ header nav {
 
 .dev_list ul :nth-child(4) div{
   padding: 23px 0 0 11px;
+}
+
+footer {
+  display: flex;
+
+  width: 100%;
+  height: 64px;
+
+  font-family: "Lucida Sans Italic";
+  font-size: 29px;
+  color: white;
+
+  background: url('./assets/images/Layer\ 31.png') no-repeat;
+  background-position-x: -6px;
+  background-position-y: -10px;
+
+  box-shadow: -0.105px -2.998px 5px rgba(0, 0, 0, 0.75);
+}
+
+footer figure {
+  width: 52px;
+  height: 52px;
+  padding: 16px 0 0 200px;
+}
+
+footer figure img {
+  transform: scale(0.65, 0.65) translate(-115px, -91px);
 }
