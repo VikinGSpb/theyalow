@@ -161,8 +161,12 @@ header nav {
   background-position-y: -160px; 
 }
 
-.video_wrapper {
+.video_wrapper_desktop {
   margin: 9px 0 0 118px;
+}
+
+.video_wrapper_mobile {
+  display: none;
 }
 
 .span_section {
@@ -501,4 +505,184 @@ footer figure {
 
 footer figure img {
   transform: scale(0.65, 0.65) translate(-115px, -91px);
+}
+
+@media (max-width: 940px) {
+  .wrapper {
+    width: 640px;
+  }
+
+  header {
+    display: flex;
+  
+    width: 100%;
+    height: 62px;
+
+    background: #5A5A5A url('');
+  }
+
+  header figure {
+    width: 39px;
+    height: 38px;
+  }
+  
+  header h1 { 
+    display: inline-block;
+
+    padding: 22px 0 0 18px;
+    margin: 0;
+
+    font-family: "Lucida Sans Italic";
+    font-size: 19px;
+    font-weight: normal;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+  }
+  
+  .logo {
+    margin: 0;
+  }
+
+  .logo img {
+    transform: scale(0.475, 0.475) translate(-20px, -22px);
+  }
+
+  .navshadow1,
+  .navshadow2 {
+    display: none;
+  }
+
+  nav {
+    width: 454px;
+    height: 62px;
+  
+    background-color: #F5C506;
+  }
+  
+  header nav {
+    display: flex;
+  
+    margin: 0 0 0 21px;
+  
+    font-family: "SegoeWP";
+    font-size: 19px;
+    color: #9B7D08;
+    letter-spacing: 0;
+  }
+  
+  .about {
+    flex: 1;
+  
+    padding-top: 18px;
+  
+    border-right: 1px solid #9B7D08;
+    text-align: center;
+  }
+  
+  .about img {
+    transform: translate(-4px, 1px) scale(1.15, 1.15);
+  }
+  
+  .services {
+    flex: 1;
+  
+    padding-top: 18px;
+  
+    border-right: 1px solid #9B7D08;
+    text-align: center;
+  }
+  
+  .services img {
+    transform: translate(-4px, 1px) scale(1.15, 1.15);
+  }
+  
+  .contact {
+    flex: 1;
+  
+    padding-top: 18px;
+  
+    text-align: center;
+  }
+  
+  .contact img {
+    transform: translate(-4px, 1px) scale(1.15, 1.15);
+  }
+
+  .player {
+    display: flex;
+  
+    width: 100%;
+    height: 327px;
+  
+    background: url('');
+  }
+  
+  .video_wrapper_desktop {
+    display: none;
+  }
+  
+  .video_wrapper_mobile {
+    display: block;
+  }
+  
+  .span_section,
+  .first_span_wrapper , 
+  .second_span_wrapper,
+  .left_button,
+  .right_button,
+  .left_button figure,
+  .right_button figure {
+    display: none;
+  }
+
+  .icons {
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 172px;
+    padding: 0 0 0 0;
+  
+    font-family: "SegoeUI-Light";
+    font-size: 23px;
+    letter-spacing: 0px;
+    font-weight: 300;
+  
+    background: url(./assets/images/background2.png) no-repeat;
+  
+    box-shadow: 0 0 0 0;
+  }
+  
+  .design {
+    padding: 31px 0 0 16px;
+  
+    letter-spacing: 0.3px;
+  
+    border: none;
+  }
+  
+  .design figure img {
+    transform: translate(18px,-4px) scale(0.82, 0.82);
+  }
+  
+  .custom {
+    padding: 10px 0 0 57px;
+  
+    border: none;
+  }
+  
+  .custom figure img {
+    transform: translate(12px,7px) scale(0.74, 0.74);
+  }
+  
+  .free {
+    padding: 22px 0 0 68px;
+  
+    letter-spacing: 0.3px;
+  
+    border: none;
+  }
+  
+  .free figure img {
+    transform: translate(-5px,1px) scale(0.84, 0.84);
+  }
 }
