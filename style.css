@@ -657,6 +657,7 @@ footer figure img {
   
     grid-template-columns: 1fr 1fr 1fr;
     height: 172px;
+    width: 100%;
     padding: 0 0 0 0;
   
     font-family: "SegoeUI-Light";
@@ -879,5 +880,70 @@ footer figure img {
 
     background-color: #DB9A18;
     border: none;
+  }
+
+  .devices {
+    width: 100%;
+    height: 467px;
+    padding-left: 0;
+  
+    background: url('') no-repeat;
+    background-color: #474747;
+  }
+  
+  .dev_head {
+    padding: 33px 0 0 20px;
+  
+    font-family: "PT Sans Regular";
+    font-size: 39px;
+    color: #F5C506;
+    letter-spacing: 2.1px;
+  }
+  
+  .dev_images {
+    display: inline-block;
+  
+    width: 100%;
+    height: 350px;
+    padding: 30px 0 0 30px;
+  }
+  
+  .circle_div {
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    margin: 3px 0 0 -1px;
+    padding: 51px 0 0 2px;
+    z-index: 10;
+  
+    text-align: center;
+  
+    font-size: 18px;
+    letter-spacing: 0.4px;
+    line-height: 1.1em;
+    color: #ffffff;
+    font-family: "PT Sans Narrow";
+  
+    border-radius: 58px;
+    background-color: #f5c506;
+    opacity: 1;
+  }
+  
+  .desktop img {
+    transform: translate(29px, 44px);
+    z-index: 1;
+    position: relative;
+  }
+  
+  .tablet img {
+    transform: translate(376px, -173px);
+  }
+  
+  .mobile img {
+    transform: translate(530px, -240px);
+  }
+  
+  .dev_list {
+    display: none;
   }
 }
