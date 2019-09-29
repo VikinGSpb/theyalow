@@ -538,7 +538,7 @@ footer figure img {
   transform: scale(0.65, 0.65) translate(-113px, -92px);
 }
 
-@media (max-width: 940px) {
+@media (max-width: 640px) {
   *{
     margin: 0;
     padding: 0;
